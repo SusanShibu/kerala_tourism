@@ -5,11 +5,11 @@
 
 body{
     background-size:cover;  
-    background-image: url("images/pexels-jaiju-jacob-6544755.jpg");
+    background-image: url("pexels-jaiju-jacob-6544755.jpg");
 }
 .first{
     background-size:cover;  
-    background-image: url("images/pexels-anoop-vs-6012437.jpg");
+    background-image: url("pexels-anoop-vs-6012437.jpg");
 }
 header{
     background-color: green;
@@ -24,28 +24,43 @@ header{
 
 
 
-.head-tag
-{
-    float:right;
-    margin-top: 44px;
-    margin-right: 50px;
-    
-    }
+.head-tag{
+  float:right;
+  margin-top: 25px;
+  margin-right: 50px;
+  
+  }
 
+.anchor{
+  float: right;
+  margin-top: 25px;
+}
 
 .head-tag a{
-    text-decoration: none;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: white;
-    border: 1px solid white;
-    padding: 8px;
-    margin-right: 8px;
+  text-decoration: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+  border: 1px solid white;
+  padding: 8px;
+  margin-right: 8px;
+  margin-top: 0%;
+  
+  
 }
 .head-tag a:hover{
-    background-color:white;
-    color: black;
-    transition: 0.2s ease-in-out;
+  background-color:white;
+  color: black;
+  transition: 0.2s ease-in-out;
 } 
+
+.head-tag h3{
+  margin-top: 1px;
+  margin-right: 17em;
+  font-size: 50px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+  
+}
 
 .login{
     float:right;
